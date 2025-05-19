@@ -32,7 +32,7 @@ export default function BrailleTypingPlatform() {
   const [suggestions, setSuggestions] = useState<string[]>([]);
   const [selectedSuggestion, setSelectedSuggestion] = useState(-1);
   const [lastWord, setLastWord] = useState("");
-  const [algorithm, setAlgorithm] = useState<"trie">("trie");
+  const [algorithm, setAlgorithm] = useState<"trie" | "levenshtein">("trie");
   const inputRef = useRef<HTMLInputElement>(null);
   const [wordDiclist, setWordDiclist] = useState<string[]>([]);
 
