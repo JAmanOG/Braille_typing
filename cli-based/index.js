@@ -14,7 +14,7 @@ dicwords.forEach(word => trie.insert(word.toLowerCase()));
 
 // Set up keypress listener on stdin
 keypress(process.stdin);
-process.stdin.setRawMode(true);
+process.stdin.setRawMode(true); 
 process.stdin.resume();
 
 // Current state
@@ -129,11 +129,6 @@ process.stdin.on('keypress', (ch, key) => {
   
   // Process space to complete a word
   if (key && key.name === 'space') {
-
-    // potentialWord.forEach((word) => {
-    //   suggestionsForWord(word);
-    // });
-
     completeWord();
     return;
   }
