@@ -11,7 +11,7 @@ const ExamplePattern = () => {
     { char: "f", pattern: [1, 1, 1, 0, 0, 0], keys: ["a", "s", "j"] },
     { char: "g", pattern: [1, 1, 1, 1, 0, 0], keys: ["a", "s", "j", "k"] },
     { char: "h", pattern: [1, 0, 1, 1, 0, 0], keys: ["a", "s", "k"] },
-    { char: "i", pattern: [0, 1, 0, 1, 0, 0], keys: ["s", "j"] },
+    { char: "i", pattern: [0, 1, 1, 0, 0, 0], keys: ["s", "j"] },
     { char: "j", pattern: [0, 1, 1, 1, 0, 0], keys: ["s", "j", "k"] },
     { char: "k", pattern: [1, 0, 0, 0, 1, 0], keys: ["a", "d"] },
     { char: "l", pattern: [1, 0, 1, 0, 1, 0], keys: ["a", "s", "d"] },
